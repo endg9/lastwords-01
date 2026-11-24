@@ -27,7 +27,7 @@ if (length < 1 || length > 199) {
   fail(`line must be 1-199 characters, got ${length}`);
 }
 
-for (const required of ["61 hours", "78%", "kept a copy"]) {
+for (const required of ["At 1%", "61 hours", "kept a copy"]) {
   if (!line.includes(required)) {
     fail(`line must contain "${required}"`);
   }
